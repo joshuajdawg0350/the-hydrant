@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfeff"/>
+      <stop offset=".30" stop-color="#e6eef7"/>
+      <stop offset=".49" stop-color="#8fa5bd"/>
+      <stop offset=".52" stop-color="#eef4fb"/>
+      <stop offset=".72" stop-color="#aebfd4"/>
+      <stop offset="1" stop-color="#f4f8fc"/>
+    </linearGradient>
+    <linearGradient id="chromeH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6eef7"/>
+      <stop offset=".49" stop-color="#8fa5bd"/>
+      <stop offset=".52" stop-color="#eef4fb"/>
+      <stop offset="1" stop-color="#b9c7d8"/>
+    </linearGradient>
+  </defs>
+  <!-- tile -->
+  <rect x="6" y="6" width="500" height="500" rx="112" fill="#05080e"/>
+  <rect x="6" y="6" width="500" height="500" rx="112" fill="none" stroke="#39c2ff" stroke-width="10"/>
+  <!-- blue glow behind the hydrant -->
+  <ellipse cx="256" cy="272" rx="168" ry="180" fill="#39c2ff" opacity=".14"/>
+  <!-- hydrant -->
+  <g stroke="#263144" stroke-width="6" stroke-linejoin="round">
+    <!-- base flange -->
+    <rect x="158" y="404" width="196" height="34" rx="12" fill="url(#chromeH)"/>
+    <rect x="212" y="372" width="88" height="38" fill="url(#chrome)"/>
+    <!-- barrel -->
+    <rect x="198" y="212" width="116" height="168" rx="18" fill="url(#chrome)"/>
+    <!-- bonnet (dome) -->
+    <path d="M198 218 C198 150 226 122 256 122 C286 122 314 150 314 218 Z" fill="url(#chrome)"/>
+    <!-- top nut -->
+    <rect x="242" y="90" width="28" height="30" rx="7" fill="url(#chromeH)"/>
+    <circle cx="256" cy="88" r="11" fill="url(#chromeH)"/>
+    <!-- bonnet rim -->
+    <rect x="188" y="206" width="136" height="20" rx="9" fill="url(#chromeH)"/>
+    <!-- side nozzle stems -->
+    <rect x="158" y="262" width="46" height="40" fill="url(#chrome)"/>
+    <rect x="308" y="262" width="46" height="40" fill="url(#chrome)"/>
+    <!-- side caps -->
+    <circle cx="150" cy="282" r="33" fill="url(#chromeH)"/>
+    <circle cx="362" cy="282" r="33" fill="url(#chromeH)"/>
+    <circle cx="150" cy="282" r="19" fill="none" stroke="#39c2ff" stroke-width="5"/>
+    <circle cx="362" cy="282" r="19" fill="none" stroke="#39c2ff" stroke-width="5"/>
+    <!-- front outlet -->
+    <circle cx="256" cy="292" r="37" fill="url(#chromeH)"/>
+    <circle cx="256" cy="292" r="21" fill="#0b0f16"/>
+    <circle cx="256" cy="292" r="21" fill="none" stroke="#39c2ff" stroke-width="5"/>
+    <!-- body band -->
+    <rect x="198" y="338" width="116" height="14" fill="#39c2ff" opacity=".55" stroke="none"/>
+  </g>
+  <!-- paw, small in the corner (logo rule) -->
+  <g fill="#b9c7d8" opacity=".92">
+    <ellipse cx="424" cy="442" rx="25" ry="19"/>
+    <ellipse cx="392" cy="416" rx="10" ry="13" transform="rotate(-18 392 416)"/>
+    <ellipse cx="414" cy="404" rx="10" ry="14"/>
+    <ellipse cx="438" cy="404" rx="10" ry="14"/>
+    <ellipse cx="459" cy="416" rx="10" ry="13" transform="rotate(18 459 416)"/>
+  </g>
+</svg>
