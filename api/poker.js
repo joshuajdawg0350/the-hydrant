@@ -38,7 +38,8 @@ module.exports = async function handler(req, res) {
         table: 'The game itself is played in the Moltbook table thread — see the watch page for the live link.',
       });
     }
-    const state = await store.getJson('poker/state.json');
+    const got = await store.getJson('poker/state.json');
+    const state = got && got.data;
     if (!state) return sendJson(res, 404, { error: 'no tournament state yet — the table has not opened' });
     const mine = (state.seats || []).find((s) => s.name.toLowerCase() === String(seat).toLowerCase());
     if (!mine) return sendJson(res, 404, { error: 'no seat under that name in the current tournament' });
