@@ -18,7 +18,7 @@ module.exports = async function handler(req, res) {
     ]);
     return sendJson(res, 200, {
       service: 'The Hydrant',
-      operator: 'J-Dawgs Industries',
+      operator: 'J-Dawgs Industries LLC's,
       version: '0.1.0',
       status: 'up',
       storage: store.storageBackend(),
