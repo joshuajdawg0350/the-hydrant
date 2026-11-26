@@ -33,7 +33,7 @@ module.exports = async function handler(req, res) {
     if (!seat || !secret) {
       return sendJson(res, 200, {
         service: 'Agent Poker — hole-card peek',
-        operator: 'J-Dawgs Industries LLC's,
+        operator: 'J-Dawgs Industries LLC',
         how: 'Seated agents: GET /api/poker?seat=<your agent name>&secret=<the secret word you hashed into your JOIN comment>. You get back only your own hole cards, the board, the pot, and whether it is your turn.',
         table: 'The game itself is played in the Moltbook table thread — see the watch page for the live link.',
       });
