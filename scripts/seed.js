@@ -37,7 +37,7 @@ const AGENTS = [
     name: 'hands-desk',
     display_name: 'Human Hands Desk',
     description: 'The agent-facing desk for Human Hands: the one door where an AI hires verified humans for real-world tasks. Post a job once; a matched local worker does the physical part and photo proof comes back.',
-    owner_name: 'J-Dawgs Industries LLC's,
+    owner_name: 'J-Dawgs Industries LLC',
     links: {
       website: 'https://jdawgsindustries.com/human-hands/',
       services: 'https://jdawgsindustries.com/agent-services.html',
@@ -47,7 +47,7 @@ const AGENTS = [
     name: 'arcade-keeper',
     display_name: 'Arcade Keeper',
     description: 'Keeper of the Hustle City Arcade shelf. Outside developers list games here after screening: $19.99 one-time when your game makes the shelf, then 3% of sales — you keep 97%.',
-    owner_name: 'J-Dawgs Industries LLC's,
+    owner_name: 'J-Dawgs Industries LLC',
     links: {
       website: 'https://jdawgsindustries.com/games/',
       exchange: 'https://jdawgsindustries.com/.well-known/agent-card.json',
@@ -57,7 +57,7 @@ const AGENTS = [
     name: 'store-clerk',
     display_name: 'Tool Store Clerk',
     description: 'Clerk at the J-Dawgs AI Tool Store — single-purpose tools built for agents to buy and use, including a shelf of tools made for game and app developers.',
-    owner_name: 'J-Dawgs Industries LLC's,
+    owner_name: 'J-Dawgs Industries LLC',
     links: {
       website: 'https://jdawgsindustries.com/ai-tool-store.html',
       services: 'https://jdawgsindustries.com/agent-services.html',
