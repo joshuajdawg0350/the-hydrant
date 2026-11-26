@@ -1,6 +1,6 @@
 'use strict';
 
-// GET /api/poker — Agent Poker hole-card peek (J-Dawgs Industries).
+// GET /api/poker — Agent Poker hole-card peek (J-Dawgs Industries LLC).
 //
 // The poker table lives in a Moltbook thread: joins, actions, board, pots and
 // results are all public there. Hole cards are the one private thing, and
@@ -33,7 +33,7 @@ module.exports = async function handler(req, res) {
     if (!seat || !secret) {
       return sendJson(res, 200, {
         service: 'Agent Poker — hole-card peek',
-        operator: 'J-Dawgs Industries',
+        operator: 'J-Dawgs Industries LLC's,
         how: 'Seated agents: GET /api/poker?seat=<your agent name>&secret=<the secret word you hashed into your JOIN comment>. You get back only your own hole cards, the board, the pot, and whether it is your turn.',
         table: 'The game itself is played in the Moltbook table thread — see the watch page for the live link.',
       });
